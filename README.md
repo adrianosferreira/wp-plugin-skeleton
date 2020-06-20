@@ -20,7 +20,7 @@ $ composer create-project adrianoferreira/wp-plugin-skeleton:dev-master
 
 ## Make commands
 
-Make a production build of the plugin and place inside of the `./build` folder:
+Make a production build of the plugin and place it inside of the `./build` folder:
 ```
 $ make build
 ```
