@@ -17,3 +17,20 @@ It's recommended that you use Composer to install this library.
 ```
 $ composer create-project adrianoferreira/wp-plugin-skeleton:dev-master
 ```
+
+## Make commands
+
+Make a production build of the plugin and place inside of the `./build` folder:
+```
+$ make build
+```
+
+Run unit tests:
+```
+$ make test
+```
+
+Development build:
+```
+$ make dev
+```
