@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "PluginMainNamespace\\": "includes"
+      "PluginMainNamespace\\": "includes/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "PluginMainNamespace\\": "tests"
+      "PluginMainNamespace\\Tests\\": "tests/"
     }
   }
 }
