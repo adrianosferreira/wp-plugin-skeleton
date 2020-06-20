@@ -1,0 +1,29 @@
+{
+  "name": "adrianoferreira/wp-plugin-skeleton",
+  "description": "A simple skeleton for building WordPress plugins",
+  "authors": [
+    {
+      "name": "Adriano Ferreira",
+      "email": "adrianokta@gmail.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "^3.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+    ,
+    "10up/wp_mock": "^0.4.2",
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "PluginMainNamespace\\": "includes"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PluginMainNamespace\\": "tests"
+    }
+  }
+}
