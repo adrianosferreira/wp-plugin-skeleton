@@ -1,0 +1,1 @@
+Here goes the CSS of the admin pages.
