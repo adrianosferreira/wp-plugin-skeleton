@@ -28,7 +28,7 @@ Make a production build of the plugin and place it inside of the `./build` folde
 $ make build
 ```
 
-Run unit tests:
+Run unit tests, style check and static files check:
 ```
 $ make test
 ```
