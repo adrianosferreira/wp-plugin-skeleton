@@ -1,0 +1,6 @@
+<ruleset  name="PHP_CodeSniffer">
+	<description>PHPCS configuration file.</description>
+	<file>includes</file>
+	<arg  value="np"/>
+	<rule  ref="PSR12"/>
+</ruleset>

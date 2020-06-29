@@ -2,13 +2,16 @@
 
 namespace PluginMainNamespace\Template;
 
+use Twig\Environment;
+use Twig\Loader\FilesystemLoader;
+
 class Loader
 {
 
     public function get()
     {
-        return new \Twig\Environment(
-            new \Twig\Loader\FilesystemLoader(PLUGIN_NAME_PATH . '/templates'),
+        return new Environment(
+            new FilesystemLoader(PLUGIN_NAME_PATH . '/templates'),
             []
         );
     }

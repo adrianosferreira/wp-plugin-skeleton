@@ -2,6 +2,15 @@
 
 That's just another skeleton for quickly prototyping of WordPress plugins.
 
+It comes out of the box with:
+
+- PHPStan
+- PHP_CodeSniffer
+- PHPUnit
+- Travis Yaml file
+- Twig
+- Make commands 
+
 ## Installation
 
 It's recommended that you use Composer to install this library.
