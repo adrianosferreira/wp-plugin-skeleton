@@ -15,8 +15,7 @@ It comes out of the box with:
 
 It's recommended that you use Composer to install this library.
 
-- Create an empty folder inside `wp-content/plugins` and name it as your plugin name
-- Enter inside of it and run the command:
+- Inside of `wp-content/plugins` run the command:
 ```
 $ composer create-project adrianoferreira/wp-plugin-skeleton:dev-master
 ```
